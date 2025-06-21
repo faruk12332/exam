@@ -23,5 +23,5 @@ jobs:
         run: npm install -g firebase-tools
 
       - name: Firebase Deploy
-        run: firebase deploy --token "$FIREBASE_TOKEN" --project imtihan-uygulamasi
+        run: firebase deploy --token "$FIREBASE_TOKEN" --project imtihan-veri-sistemi
 
